@@ -13,7 +13,7 @@ Route::get('/meuslivros', [UsuarioController::class, 'meuslivrosView']);
 
 
 Route::get('/minhaconta', [UsuarioController::class, 'minhacontaView']);
-
+Route::post('/fazer-login', [UsuarioController::class, 'fazerLogin']);
 
 Route::get('/resultadoslivros', [UsuarioController::class, 'resultadoslivrosView']);
 
